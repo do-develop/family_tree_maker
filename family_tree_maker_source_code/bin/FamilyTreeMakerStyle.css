@@ -1,0 +1,76 @@
+/*entire program design*/
+.root{
+	-fx-background-color: #FFFFFF;
+	-fx-font-size: 10pt;
+}
+
+.label{
+	-fx-text-fill: #000000;
+	-fx-font-family: consolas;
+}
+
+.text-area {
+	-fx-font-family: consolas;
+	-fx-font-size: 12;
+}
+
+.combo-box 
+{
+    -fx-font-family: consolas;
+	-fx-font-size: 15;
+}
+
+.button{
+	-fx-background-color: linear-gradient(#00cc99, #006666);
+	-fx-text-fill: #ffffff;
+	-fx-font-family: consolas;
+	-fx-background-radius: 5px;
+}
+
+.list-cell {
+	-fx-font-family: consolas;
+	-fx-font-size: 12;
+    -fx-background-color: #ffffff;
+}
+
+.list-cell:filled:hover {
+	-fx-font-weight: bold;
+    -fx-text-fill: black;
+}
+
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+    -fx-background-color: linear-gradient(#00cc99, #006666);
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+}
+
+#tree-buttons{
+	-fx-font-size: 11;
+	-fx-font-weight: bold;
+}
+
+#text-input-field{
+	-fx-max-width: 280;
+	-fx-font-family: consolas;
+	-fx-font-size: 14;
+	-fx-background-color: #a9a9a9 , white , white;
+    -fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
+}
+
+#text-input-field:focused {
+    -fx-background-color: #a9a9a9 , white , white;
+    -fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
+}
+
+#right-buttons{
+	-fx-min-width: 60;
+}
+#bold-label{
+	-fx-font-size: 14;
+	-fx-font-weight: bold;
+}
+
+#bold-title-label{
+	-fx-font-size: 25;
+	-fx-font-weight: bold;
+}
