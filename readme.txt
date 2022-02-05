@@ -36,11 +36,11 @@ From the command prompt, change the directory location using ‘cd’
 command to go to the directory containing the .jar files.
 
 If you are running under Java SE 8:
-java -jar ict373_asign2.jar
+java -jar family_tree_maker.jar
 
 If you are running over Java SE 9 and over:
 java -jar --module-path ${your_javafx_module_path} --add-modules 
-javafx.controls,javafx.fxml ict373_asign2.jar
+javafx.controls,javafx.fxml family_tree_maker.jar
 
 
 ### Using IDE
